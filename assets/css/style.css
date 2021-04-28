@@ -1,0 +1,305 @@
+body {
+    font-family: "Zilla Slab", sans-serif;
+    margin: 0px;
+    padding: 0px;  
+    color: #721111;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.firstname {
+    font-size: 50;
+    font-weight: bold;
+    color: #721111;
+    position: absolute;
+    top: 57%;
+    left: 43%;
+    transform: translate(-50%, -50%)
+}
+
+.lastname {
+    font-size: 50;
+    font-weight: bold;
+    color: #721111;
+    position: absolute;
+    top: 57%;
+    left: 58%;
+    transform: translate(-50%, -50%)
+}
+
+.credits {
+    font-size: 20;
+    color: #721111;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+
+}
+
+.date {
+    font-size: 20;
+    color: #721111;
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+
+}
+
+.email {
+    font-size: 20;
+    color: #363B65;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+}
+
+#linkedin {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+}
+
+#facebook {
+    position: absolute;
+    bottom: 4.2%;
+    left: 5%;
+}
+
+#profilepic {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#leftloop {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#rightloop {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+
+#front-page {
+    background-color: #DCEEFF;
+    height: 100vh;
+    margin: 0 auto 0px;
+    width: 100%;
+}
+
+#work-page {
+    background-color: #FFFEF3;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#projects-page {
+    background-color: #FFFEF3;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#about-page {
+    background-color: #FFFEF3;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#att {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#bearmaps {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+
+
+
+
+#Genie {
+    position: relative;
+    top: 50%;
+}
+
+#Chickens {
+    position: absolute;
+    top: 0%;
+}
+
+.about-tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+
+ul.nav-menu{
+    margin: 0;
+    max-height: 200px;
+    overflow: hidden;
+    padding: 0 40px 0 0;
+    position: absolute;
+    bottom: 0%;
+    left:23%;
+}
+ul.nav-menu li{
+    background: none repeat scroll 0 0 ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: inline-block;
+    position:relative;
+    top:10px;
+    padding-left: 80px;
+}
+.nav-menu li.active, .nav-menu li:hover{
+    top: 0;
+}
+
+.nav-menu li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 20px 20px;
+    text-decoration: none;
+    width: 145px;
+    text-align: center;
+    margin: 0;
+}
+
+.work {
+    background:#DEA34B;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.projects {
+    background:#B15F5F;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.about {
+    background:#4C507C;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#cal-tab {
+    cursor: pointer;
+}
+#chicken-tab {
+    cursor: pointer;
+}
+#travel-tab {
+    cursor: pointer;
+}
+#baking-tab {
+    cursor: pointer;
+}
+
+#house {
+    position: relative;
+    top: -420px;
+    left: 650px;
+}
+
+#house:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  height:140%;
+  width: 1400px;
+  justify-content: center;
+  align-items: center;
+  top: 500px;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: 100;
+  color: #363B65;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+
+
+.scrolling-box {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
